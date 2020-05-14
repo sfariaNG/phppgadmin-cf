@@ -1,6 +1,7 @@
 ---
 #Generated manifest
 applications:
-- name: phppgadmin-cfready
+- name: phppgadmin-cf
   memory: 1G
   instances: 1
+  random_route: false
