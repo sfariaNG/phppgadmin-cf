@@ -96,7 +96,7 @@ $conf['servers'][0]['pg_dumpall_path'] = '/usr/bin/pg_dumpall';*/
 */
 //$conf['srv_groups'][0]['desc'] = 'group one';
 
-/* Add here servers indexes belonging to the group '0' seperated by comma */
+/* Add here servers indexes belonging to the group '0' separated by comma */
 //$conf['srv_groups'][0]['servers'] = '0,1,2';
 
 /* A server can belong to multi groups. Here server 1 is referenced in both
@@ -176,6 +176,7 @@ $conf['left_width'] = 200;
 $conf['theme'] = 'default';
 
 // Show OIDs when browsing tables?
+// Only supported in versions <=11
 $conf['show_oids'] = false;
 
 // Max rows to show on a page when browsing record sets

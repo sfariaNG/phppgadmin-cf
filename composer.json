@@ -4,17 +4,12 @@
   "type": "Application",
   "license": "GPL-2.0+",
   "require": {
-    "php": "5.5.*",
+    "php": ">=7.1",
     "ext-mbstring": "*",
     "ext-pgsql": "*",
-    "ext-mcrypt": "*",
-    "ext-pdo": "*",
-    "ext-pdo_pgsql": "*",
-    "cloudfoundry-community/cf-helper-php": "1.4.*",
-    "monolog/monolog": "~1.13"
+    "cloudfoundry-community/cf-helper-php": "1.4.*"
   },
   "minimum-stability": "stable",
   "autoload": {
   }
 }
-
