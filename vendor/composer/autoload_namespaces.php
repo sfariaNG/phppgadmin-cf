@@ -14,7 +14,6 @@ return array(
     'Zend\\EventManager\\' => array($vendorDir . '/zendframework/zend-eventmanager'),
     'Zend\\Code\\' => array($vendorDir . '/zendframework/zend-code'),
     'Whoops' => array($vendorDir . '/filp/whoops/src'),
-    'Symfony\\Component\\Yaml\\' => array($vendorDir . '/symfony/yaml'),
     'Symfony\\Component\\ExpressionLanguage\\' => array($vendorDir . '/symfony/expression-language'),
     'Symfony\\Component\\EventDispatcher\\' => array($vendorDir . '/symfony/event-dispatcher'),
     'RomaricDrigon\\MetaYaml' => array($vendorDir . '/romaricdrigon/metayaml/src'),
